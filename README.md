@@ -8,7 +8,7 @@
 
 这里使用npm install cesium的方式来引入Cesium，方便版本更新。
 
-![预览](./tools/images/preview.jpg)
+![预览](./tools/images/preview.png)
 
 ## 使用方法
 
