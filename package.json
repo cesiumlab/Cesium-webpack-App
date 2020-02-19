@@ -1,0 +1,28 @@
+{
+  "name": "cesium-webpack-app",
+  "version": "1.0.0",
+  "description": "基于Cesium和webpack创建的极简App，可以调试和打包。",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config ./tools/webpack/webpack.dev.js",
+    "dev2": "cross-env XBSJ_IMPORT=external webpack-dev-server --open --config ./tools/webpack/webpack.dev.js",
+    "build": "webpack --config ./tools/webpack/webpack.prod.js",
+    "build2": "cross-env XBSJ_IMPORT=external webpack --config ./tools/webpack/webpack.prod.js"
+  },
+  "keywords": [
+    "cesium"
+  ],
+  "author": "cesiumlab",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^5.2.1",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "cesium": "^1.66.0"
+  }
+}
