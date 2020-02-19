@@ -21,4 +21,10 @@ npm run dev
 2. 打包
 npm run build
 
+## 使用VUE
+
+如果需要使用Vue的话，可以参考这个项目：https://github.com/cesiumlab/EarthSDK-vue-cli-app 
+
+这个项目并非为Cesium准备，但是内部可以配置成纯Cesium+Vue开发的项目，具体请查看该项目说明。
+
 
